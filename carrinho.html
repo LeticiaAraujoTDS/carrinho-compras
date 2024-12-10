@@ -109,7 +109,7 @@
             carrinho = JSON.parse(carrinho);
 
             carrinho.forEach((produto, index) => {
-                let preco = produto.preço;//R$100,00 -> 100.00
+                let preco = produto.preco;//R$100,00 -> 100.00
                 preco = preco.replace('R$', ',');
                 preco = preco.replace('', '.');
 
